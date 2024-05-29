@@ -1,0 +1,109 @@
+
+header{
+    outline: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: aquamarine;
+    block-size: 10%;
+   
+
+}
+
+body{
+    background-color: #E7E8D1;
+    padding: 20px;
+}
+
+.name{
+    margin: 5px;
+}
+
+.pages{
+    margin: 5px;
+}
+
+.description{
+    display:flex;
+    
+}
+
+img{
+    max-width: 25%;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid aliceblue;
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    margin:20%;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid aliceblue;
+	border-bottom: 25px solid transparent;
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    margin:35%;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid aliceblue;
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    margin:50%;
+}
+.trapezoid {
+	border-bottom: 50px solid aliceblue;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    margin: 25%;
+}
+.oval {
+    height: 50px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    margin: 10% 70%;
+  }
+
+
+h3{
+    text-align: center;
+}
+
+.project{
+    outline: solid;
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    margin:10px auto;
+    background-color: aquamarine;
+
+}
+
+.form{
+    padding: 5%;
+}
